@@ -29,15 +29,10 @@ This project allows users to manage hospital data such as patients, doctors, and
 | **Frontend** | HTML, CSS |
 | **Database Connector** | mysql-connector-python |
 
-Run the Project:
+## Run the Project:
 Start the Flask server:
 python hospital_app.py
-Then open your browser and visit:
 
-http://127.0.0.1:5000/
+## Then open your browser and visit:
 
-
-
-
-```bash
-pip install -r requirements.txt
+## http://127.0.0.1:5000/
