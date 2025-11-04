@@ -1,0 +1,17 @@
+body{font-family:Arial,Helvetica,sans-serif;background:#f7f9fb;color:#222;margin:0;padding:0}
+.container{max-width:1000px;margin:20px auto;padding:20px;background:#fff;border-radius:8px;box-shadow:0 4px 14px rgba(0,0,0,0.06)}
+header{display:flex;justify-content:space-between;align-items:center}
+header h1{margin:0;font-size:20px}
+header nav a{margin-left:12px;text-decoration:none;color:#007bff}
+.cards{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+.card{display:inline-block;padding:20px 26px;background:#007bff;color:#fff;border-radius:6px;text-decoration:none}
+table{width:100%;border-collapse:collapse;margin-top:12px}
+table th,table td{border:1px solid #e6e6e6;padding:8px;text-align:left}
+form label{display:block;margin-top:8px}
+input,select,button{padding:8px;margin-top:4px;width:100%;box-sizing:border-box}
+.btn{display:inline-block;padding:6px 10px;background:#28a745;color:#fff;border-radius:4px;text-decoration:none}
+.link-btn{background:none;border:none;color:#007bff;cursor:pointer;padding:0}
+.messages{margin:10px 0}
+.msg{padding:8px;border-radius:4px;margin-bottom:6px}
+.msg.success{background:#e6ffed}
+.msg.info{background:#eef6ff}

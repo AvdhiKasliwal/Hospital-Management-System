@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Edit Room{% endblock %}
+{% block content %}
+<h2>Edit Room</h2>
+<form method="post">
+  <label>Room Number</label><input name="room_number" value="{{ room.room_number }}" required>
+  <label>Type</label><input name="type" value="{{ room.type }}">
+  <label>Status</label><input name="status" value="{{ room.status }}">
+  <button type="submit">Save</button>
+</form>
+{% endblock %}
